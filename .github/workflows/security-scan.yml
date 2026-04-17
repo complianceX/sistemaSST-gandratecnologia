@@ -21,7 +21,7 @@ jobs:
 
       - name: TruffleHog Secret Scan
         if: ${{ !(github.event_name == 'push' && (github.event.before == github.sha || github.event.before == '0000000000000000000000000000000000000000')) }}
-        uses: trufflesecurity/trufflehog@4860052fc923ce00536db0f7b257092794dbb750
+        uses: trufflesecurity/trufflehog@0d5afcefc50330bfd4a58909e85c6223c42ff619
         with:
           path: ./
           base: ${{ github.event.pull_request.base.sha || github.event.before }}
