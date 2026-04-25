@@ -41,7 +41,7 @@
     "jspdf": "^4.2.0",
     "jspdf-autotable": "^5.0.7",
     "leaflet": "^1.9.4",
-    "lucide-react": "^0.563.0",
+    "lucide-react": "^1.11.0",
     "next": "^15.5.14",
     "pako": "^2.1.0",
     "picocolors": "^1.1.1",
